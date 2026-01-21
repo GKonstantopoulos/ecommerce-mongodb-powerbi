@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Analytics with MongoDB & Power BI
 
-This repository demonstrates a complete data pipeline: from schema design in **MongoDB** to interactive visualization and KPI tracking in **Power BI**.
+This repository demonstrates a complete data pipeline: from schema design in **MongoDB** to interactive visualization & KPI tracking in **Power BI**.
 
 ## 📌 Project Overview
 The goal of this project is to simulate a modern e-commerce environment and extract **business insights** related to sales performance, customer behavior, and logistics efficiency.
@@ -75,5 +75,5 @@ Run the scripts in numbered order (01 to 05) in your MongoDB environment.
 
 Open the .pbix file in /powerbi-report-eshop/ to explore the interactive report.
 
-## Author
+## 👤 Author
 ### Georgios Konstantopoulos
