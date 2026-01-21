@@ -18,11 +18,11 @@ The goal of this project is to simulate a modern e-commerce environment and extr
 
 ## 🗄️ Database Design (MongoDB)
 The database utilizes a document-oriented approach with the following collections:
-* [01_use_db.js](./mongodb-scripts/01_use_db.js): Create database.
-* [02_stores.js](./mongodb-scripts/02_stores.js): Metadata for physical store locations and cities.
-* [03_products.js](./mongodb-scripts/03_products.js): Catalog featuring pricing and categories.
-* [04_customers.js](./mongodb-scripts/04_customers.js): Customer demographic information.
-* [05_orders.js](./mongodb-scripts/05_orders.js): Transactional data with nested items (embedded product details, quantities, and prices).
+* [01_use_db.js](./scripts-mongodb/01_use_db.js): Create database.
+* [02_stores.js](./scripts-mongodb/02_stores.js): Metadata for physical store locations and cities.
+* [03_products.js](./scripts-mongodb/03_products.js): Catalog featuring pricing and categories.
+* [04_customers.js](./scripts-mongodb/04_customers.js): Customer demographic information.
+* [05_orders.js](./scripts-mongodb/05_orders.js): Transactional data with nested items (embedded product details, quantities, and prices).
 
 
 ## 📊 Business Intelligence & KPIs
