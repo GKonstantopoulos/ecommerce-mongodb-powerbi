@@ -50,6 +50,7 @@ Total Orders = DISTINCTCOUNT(Orders[order_number])
 Average Order Value = DIVIDE([Total Revenue], [Total Orders])
 
 Items per Order = DIVIDE(SUM(Orders[Product Qty]), [Total Orders])
+```
 
 ### 🛍️ Product & Sales Performance
 High-Value Contribution: The iPhone 17 Pro is the flagship performer, contributing ~34% of total revenue despite lower sales volume compared to accessories.
@@ -64,13 +65,19 @@ Payment Preferences: Credit Cards remain the dominant payment method, suggesting
 ### 📦 Order Behavior
 Customers purchase an average of **2 items per order**.
 
-## 📥 How to Run
+### 🛍️ Product & Sales Performance
+High-Value Contribution: The iPhone 17 Pro is the flagship performer, contributing ~34% of total revenue despite lower sales volume compared to accessories.
+
+Store Rankings: The Athens store is the primary revenue driver, accounting for 65% of total sales, significantly outperforming regional branches.
+
+### 🚚 Logistics & Payments
+Shipping Trends: While Standard shipping is the volume leader, Express shipping is correlated with higher-value orders.
+
+Payment Preferences: Credit Cards remain the dominant payment method, suggesting a customer base with high digital payment adoption.
+
+📥 How to Run
 Navigate to /mongodb-scripts/.
-
-## 👤 Author
-
-## Georgios Konstantopoulos
-
 Run the scripts in numbered order (01 to 05) in your MongoDB environment.
-
 Open the .pbix file in /powerbi-report-eshop/ to explore the interactive report.
+
+Author: Georgios Konstantopoulos
