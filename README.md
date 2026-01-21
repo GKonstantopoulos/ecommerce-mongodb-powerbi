@@ -75,5 +75,5 @@ Run the scripts in numbered order (01 to 05) in your MongoDB environment.
 
 Open the .pbix file in /powerbi-report-eshop/ to explore the interactive report.
 
-### Author
-## Georgios Konstantopoulos
+## Author
+### Georgios Konstantopoulos
