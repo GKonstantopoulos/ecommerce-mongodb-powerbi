@@ -18,10 +18,12 @@ The goal of this project is to simulate a modern e-commerce environment and extr
 
 ## 🗄️ Database Design (MongoDB)
 The database utilizes a document-oriented approach with the following collections:
-* **`stores`**: Metadata for physical store locations and cities.
-* **`products`**: Catalog featuring pricing and categories.
-* **`users`**: Customer demographic information.
-* **`orders`**: Transactional data with nested items (embedded product details, quantities, and prices).
+* [01_use_db.js](./mongodb-scripts/01_use_db.js): Create database.
+* [02_stores.js](./mongodb-scripts/02_stores.js): Metadata for physical store locations and cities.
+* [03_products.js](./mongodb-scripts/03_products.js): Catalog featuring pricing and categories.
+* [04_customers.js](./mongodb-scripts/04_customers.js): Customer demographic information.
+* [05_orders.js](./mongodb-scripts/05_orders.js): Transactional data with nested items (embedded product details, quantities, and prices).
+
 
 ## 📊 Business Intelligence & KPIs
 
@@ -65,19 +67,13 @@ Payment Preferences: Credit Cards remain the dominant payment method, suggesting
 ### 📦 Order Behavior
 Customers purchase an average of **2 items per order**.
 
-### 🛍️ Product & Sales Performance
-High-Value Contribution: The iPhone 17 Pro is the flagship performer, contributing ~34% of total revenue despite lower sales volume compared to accessories.
 
-Store Rankings: The Athens store is the primary revenue driver, accounting for 65% of total sales, significantly outperforming regional branches.
-
-### 🚚 Logistics & Payments
-Shipping Trends: While Standard shipping is the volume leader, Express shipping is correlated with higher-value orders.
-
-Payment Preferences: Credit Cards remain the dominant payment method, suggesting a customer base with high digital payment adoption.
-
-📥 How to Run
+### 📥 How to Run
 Navigate to /mongodb-scripts/.
+
 Run the scripts in numbered order (01 to 05) in your MongoDB environment.
+
 Open the .pbix file in /powerbi-report-eshop/ to explore the interactive report.
 
-Author: Georgios Konstantopoulos
+### Author
+## Georgios Konstantopoulos
